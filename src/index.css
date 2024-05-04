@@ -9,3 +9,17 @@
 .btn{
    margin-right: -1px;
 }
+.card{
+    height: fit-content;
+    width: 70%;
+}
+
+.card-body{
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .card{
+        width: 100%;
+    }
+}
